@@ -10,7 +10,7 @@ body{
 }
 :root{
 
-    --principal: #e7341c;
+    --principal: #820606;
     --rodape: #202020;
     --hotifruti: #24b65f;
     --mercearia: #835b17;
@@ -25,7 +25,7 @@ header{
     display: flex;
     justify-content: center;
     height: 100px;
-    background-color: #e7341c;
+    background-color: var(--principal);
 }
 .container{
     display: flex;
@@ -72,7 +72,7 @@ nav a{
     display: flex;
     align-items: center;
     color: white;
-    border-bottom: 3px solid #e7341c;
+    border-bottom: 3px solid var(--principal);
 }
 nav a:hover{
     border-bottom: 3px solid var(--padaria);

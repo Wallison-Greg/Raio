@@ -1,6 +1,6 @@
 @keyframes banner{
     25%{
-        background-image: url('../img/banner/açougue/bn_açougue-1.png');
+        background-image: url('../img/banner/açougue/bn_açougue.png');
     }
     50%{
         background-image: url('../img/banner/mercearia/bn_diversos_3.png');
@@ -9,7 +9,7 @@
         background-image: url('../img/banner/hortifruti/bn_hortifruti_2.png');
     }
     100%{
-        background-image: url('../img/banner/principal/bn_cp_renascer_mob.png');
+        background-image: url('../img/banner/principal/bn_cp_raio_mob.png');
     }
 
 }
@@ -64,30 +64,16 @@
         background-image: url('../img/banner/açougue/bn_açougue-5.jpg');
     }
     50%{
-        background-image: url('../img/banner/açougue/bn_açougue.png');
+        background-image: url('../img/banner/açougue/bn_açougue-4.jpg');
     }
     75%{
         background-image: url('../img/banner/açougue/bn_açougue-3.jpg');
     }
     100%{
-        background-image: url('../img/banner/açougue/bn_açougue-4.jpg');
+        background-image: url('../img/banner/açougue/bn_açougue.png');
     }
 }
 
-@keyframes açougue_mob{
-    25%{
-        background-image: url('../img/banner/açougue/bn_açougue_4.png');
-    }
-    50%{
-        background-image: url('../img/banner/açougue/bn_açougue_7.png');
-    }
-    75%{
-        background-image: url('../img/banner/açougue/bn_açougue_6.png');
-    }
-    100%{
-        background-image: url('../img/banner/açougue/bn_açougue_5.png');
-    }
-}
 
 @keyframes panificadora{
     25%{
@@ -105,18 +91,3 @@
 
 }
 
-@keyframes banner_mob{
-    25%{
-        background-image: url('../img/banner/açougue/bn_açougue-1.png');
-    }
-    50%{
-        background-image: url('../img/banner/mercearia/bn_diversos_3.png');
-    }
-    75%{
-        background-image: url('../img/banner/hortifruti/bn_hortifruti_2.png');
-    }
-    100%{
-        background-image: url('../img/banner/principal/bn_cp_renascer_mob.png');
-    }
-
-}

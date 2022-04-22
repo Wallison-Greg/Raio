@@ -84,7 +84,7 @@ nav a:hover{
 
 .banner{
     height: calc(100vh - 100px); 
-    background-image: url('../img/banner/principal/bn_cp_renascer.png');
+    background-image: url('../img/banner/principal/bn_cp_raio_mob.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,9 +121,9 @@ nav a:hover{
 .banner h2{
     margin-top: 20px;
     text-transform: uppercase;
-    color: #e7341c;
+    color: var(--açougue);
     font-weight:bold;
-    font-size: 35px;
+    font-size: 40px;
 }
 .banner h1,
 .banner h2{
@@ -295,7 +295,7 @@ nav a:hover{
 /*banner açougue*/
 
 .bn_açougue{
-    background-image: url('../img/banner/açougue/bn_açougue-1.png');
+    background-image: url('../img/banner/açougue/bn_açougue.png');
     animation-name: açougue;
     height: 400px;
 }
@@ -478,7 +478,7 @@ footer .inf_contact{
     margin-top: 15px;
 }
 .day_sem .day{
-    min-width: 33.5px;
+    min-width: 40px;
     margin-left: 10px;
 }
 .day_sem .hr{
@@ -503,12 +503,12 @@ footer .inf_contact{
     flex-direction: row;
 }
 .horario .cont_day{
-    border-right: 1px solid #7c7c7c;
+    border-left: 1px solid #7c7c7c;
     margin-right: 5px;
     margin-bottom: 15px;
 }
-.horario .cont_day:last-child{
-    border-right: none;
+.horario .cont_day:first-child{
+    border-left: none;
 }
 .cont_day .day_sem:first-child{
     margin-top: 0;
@@ -646,12 +646,7 @@ footer .inf_contact{
         font-size: 25px;
     }
     .principal {
-        background-image: url("../img/banner/principal/bn_cp_renascer_mob.png");
-        animation-name: banner;
-    }
-    .bn_açougue_mob{
-        background-image: url('../img/banner/açougue/bn_açougue-1.png');
-        animation-name: açougue_mob;
+        background-image: url("../img/banner/principal/bn_cp_raio_mob.png");
     }
     /*variedades*/
 
